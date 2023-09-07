@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulações</title>
+    <link rel="stylesheet" href="./styleSimulacao.css"> 
+</head>
+<body>
+    
+    <header>        
+        <nav>
+              <ul>
+                      <a href="./indexContato.html"><li><strong>Contato</strong></li></a>
+                      <a href="./Index.html"><li><strong>Prognostico De Produção</strong></li></a>
+                      <a href="./indexSimulacao.html"><li><strong>Simulações</strong></li></a>
+              </ul>
+        </nav>  
+    </header>
+
+    <div class="container" >
+        <div class="quadro" id="quadro" >
+            <div class="input" id="input">
+
+                <label for="entrada">Deseja dar quanto de entrada?</label>
+                <input type="number" id="entrada"  >
+                <label for="parcela">Deseja pagar em quantas vezes?</label>
+                <input type="number" id="parcela" >
+                <label for="placas">Quantas plas quer por na sua usina?</label>
+                <input type="number" id="placas">
+                <label for="inversor">Qual a potencia do inversor desejado?</label>
+                <select name="inversor" id="inversor"  required="required">
+                    <option value="">Escolha qual a potencia do inversor</option>
+                    <option value="in1.5kw">Inversor de 1,5Kw</option>
+                    <option value="in2kw">Inversor de 2Kw</option>
+                    <option value="in3kw">Inversor de 3Kw</option>
+                    <option value="in5kw">Inverosr de 5Kw</option>
+                    <option value="in8kw">Inversor de 8Kw</option>
+                    <option value="in10kw">Inversor de 10Kw</option>
+                    <option value="in15kw">Inversor de 15Kw</option>
+                    <option value="in20kw">Inversor de 20Kw</option>
+                    <option value="in30kw">Inverosr de 30Kw</option>
+                    <option value="in40kw">Inverosr de 40Kw</option>
+                </select>
+                <button id="buttonSimu">Simulação</button>
+            </div>
+        </div>
+    </div>
+
+<script src="./scriptSimulacao.js"></script>
+</body>
+</html>

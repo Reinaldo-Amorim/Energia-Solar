@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(177, 87, 13, 0.986 );
+    background-image: linear-gradient(43deg, rgb(247, 149, 4) , rgba(251, 255, 18, 0.795) );
+}
+ 
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.116);
+    align-items: center;  
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+}
+
+li{
+    font-family: 'Almendra SC', serif;
+    color: #000;
+}
+
+
+.container{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   margin-top: 80px;
+   margin-bottom: 40px;
+   border-radius: 20px;
+}
+
+.quadro{
+    height: 450px;
+    width: 400px;
+    background-color: rgba(3, 17, 145, 0.315);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.input{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   height: 70%;
+}
+
+button{
+    margin-top: 8px;
+    border-radius: 20px;
+    width: 85px;
+}
+button:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.548);
+    background-color: goldenrod;
+    
+}
+input{
+    padding: 4px;
+    border-radius: 20px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label{
+    font-size: 18px;
+}
+label:hover{
+    scale: 1.02;
+    color: goldenrod;
+}
+
+select{
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+select:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.548);
+}
